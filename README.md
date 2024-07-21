@@ -1,67 +1,65 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Final Year Project CareSeeker
+## Introduction
+![](https://github.com/AliBilal-1/SupportHub/blob/main/Support%20Hub%20Screenshot/Home%20Page%20-%20Support%20Hub.jpeg)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+HelpConnect is a dynamic web-based platform designed to bridge the gap between individuals seeking various care services and skilled support workers. This service-oriented website offers a comprehensive solution for finding reliable assistance in areas such as elder care, sick care, baby care, cooking, personal care, animal care, gym instruction, and domestic assistance. By creating an online community where care seekers can post job requirements and support workers can register their services, HelpConnect simplifies the process of connecting those in need with those who can help.
 
-## About Laravel
+Support workers on HelpConnect can create detailed profiles, including their bio data, picture, hourly rate, experience, and references, providing care seekers with all the necessary information to make informed decisions. Care seekers can either browse these profiles or post specific job requirements, specifying the required service, detailed service description, address, estimated hourly budget, and time of service. The platform includes an integrated messaging service to facilitate clear and direct communication between care seekers and support workers, ensuring all terms are agreed upon before the job is accepted.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Tools and Technology
+- Fullstack Framework: Laravel 
+- CSS Framework: Bootstrap, Tailwind CSS
+- Database: MySQL
+- Packages: Chatify, alpine, Font-awesome
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Features
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### User Registration and Profiles
 
-## Learning Laravel
+- **Support Worker Registration**: Submit detailed bio, profile picture, hourly rate, experience, and references.
+- **Care Seeker Registration**: Submit basic information and manage profile.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Job Posting and Search
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- **Job Posting**: Describe service requirements, location, budget, and time.
+- **Job Search**: Search and filter jobs by service category, location, and rate.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Communication and Hiring
 
-## Laravel Sponsors
+- **Messaging System**: Direct messaging and notifications for job updates.
+- **Job Application and Acceptance**: Apply for jobs, review applications, finalize terms, and accept jobs.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Profile and Job Management
 
-### Premium Partners
+- **Profile Management**: Update experience, hourly rate, and references for support workers; manage profiles and jobs for care seekers.
+- **Job Management**: View, edit, or delete job postings; track application status and accepted jobs for support workers.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+   
+## Demo
+![](https://github.com/AliBilal-1/SupportHub/blob/main/Support%20Hub%20Screenshot/SupportHub.gif)
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Getting Started
 
-## Code of Conduct
+To get started with the Care Seeker project, follow these steps:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# SupportHub
+1. Clone the repository: 
+   ```bash
+   git clone https://github.com/AliBilal-1/Project-Care-Seeker.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Project-Care-Seeker
+   ```
+3. Install dependencies:
+   ```bash
+   composer install
+   ```
+4. Set up the PostgreSQL database and update the database configuration in the `.env` file.
+5. Run the migrations:
+   ```bash
+   php artisan migrate
+   ```
+6. Start the development server:
+   ```bash
+   php artisan serve
