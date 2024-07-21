@@ -182,7 +182,7 @@
     <!-- Footer -->
     <footer class="bg-dark text-light text-center py-3">
         <div class="container">
-            <p>&copy; 2024 SupportHub. All rights reserved.</p>
+            <p><i class="fab fa-github"></i> <a href="https://github.com/AliBilal-1/" >AliBilal-1</a> </p>
         </div>
     </footer>
 
