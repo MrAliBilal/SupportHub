@@ -1,6 +1,6 @@
 # Final Year Project CareSeeker
 ## Introduction
-![](https://github.com/AliBilal-1/SupportHub/blob/main/Support%20Hub%20Screenshot/Home%20Page%20-%20Support%20Hub.jpeg)
+![](https://github.com/MrAliBilal/SupportHub/blob/main/Support%20Hub%20Screenshot/Home%20Page%20-%20Support%20Hub.jpeg)
 
 HelpConnect is a dynamic web-based platform designed to bridge the gap between individuals seeking various care services and skilled support workers. This service-oriented website offers a comprehensive solution for finding reliable assistance in areas such as elder care, sick care, baby care, cooking, personal care, animal care, gym instruction, and domestic assistance. By creating an online community where care seekers can post job requirements and support workers can register their services, HelpConnect simplifies the process of connecting those in need with those who can help.
 
@@ -36,7 +36,7 @@ Support workers on HelpConnect can create detailed profiles, including their bio
 
    
 ## Demo
-![](https://github.com/AliBilal-1/SupportHub/blob/main/Support%20Hub%20Screenshot/SupportHub.gif)
+![](https://github.com/MrAliBilal/SupportHub/blob/main/Support%20Hub%20Screenshot/SupportHub.gif)
 
 
 ## Getting Started
@@ -45,7 +45,7 @@ To get started with the Care Seeker project, follow these steps:
 
 1. Clone the repository: 
    ```bash
-   git clone https://github.com/AliBilal-1/Project-Care-Seeker.git
+   git clone https://github.com/MrAliBilal/Project-Care-Seeker.git
    ```
 2. Navigate to the project directory:
    ```bash
